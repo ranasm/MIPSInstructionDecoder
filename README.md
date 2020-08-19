@@ -8,7 +8,7 @@ Clone this repository (MIPSInstructionDecoder) to your local desktop. From the c
 
 ## Adding New MIPS Instructions 
 
-If you would like to add any additional machine instructions, simply open the main.cpp file and add the instruction to the current list of available instructions. Make sure to call the newly added instruction as appropriate. 
+If you would like to add any additional machine instructions, simply open the main.cpp file and add the instruction to the current list of available instructions. Make sure to integrate the newly added instruction into the main.cpp file. Rebuild the executable, and run as appropriate. 
 
 For example, if you added an instruction as follows: 
     "unsigned int instruction11= 0x8ECDFFF0; // 0b10001110110011011111111111110000", 
